@@ -1,0 +1,26 @@
+
+.btn .btn1{
+    background-color:rgba(31,63,102,255); /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Top and bottom, left and right padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Inline block for spacing */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; 
+}
+
+img{
+    width: 100%;
+    height: 900px;
+}
+
+
+
+
+
+

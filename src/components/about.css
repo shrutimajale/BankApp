@@ -1,0 +1,13 @@
+.about1 ,.about2 ,.about3{
+    background: rgb(123, 179, 201);
+    width: 1200px;
+    height: 200px;
+font-size: larger;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow */
+    margin: 20px;
+ margin-left: 550px;
+ border-radius: 20px;
+
+  
+}

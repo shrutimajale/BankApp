@@ -1,0 +1,8 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App{
+    padding-top: 80px;
+    text-align: center;
+ 
+}

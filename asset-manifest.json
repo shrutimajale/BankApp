@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BankApp/static/css/main.7899c783.css",
-    "main.js": "/BankApp/static/js/main.36cec376.js",
+    "main.js": "/BankApp/static/js/main.817d2323.js",
     "static/js/453.bca96b25.chunk.js": "/BankApp/static/js/453.bca96b25.chunk.js",
     "static/media/Yes-Connect-New-1366x460-1.jpg": "/BankApp/static/media/Yes-Connect-New-1366x460-1.7d19b77341b788671633.jpg",
     "static/media/slick.svg": "/BankApp/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,11 +10,11 @@
     "static/media/slick.woff": "/BankApp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/BankApp/index.html",
     "main.7899c783.css.map": "/BankApp/static/css/main.7899c783.css.map",
-    "main.36cec376.js.map": "/BankApp/static/js/main.36cec376.js.map",
+    "main.817d2323.js.map": "/BankApp/static/js/main.817d2323.js.map",
     "453.bca96b25.chunk.js.map": "/BankApp/static/js/453.bca96b25.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7899c783.css",
-    "static/js/main.36cec376.js"
+    "static/js/main.817d2323.js"
   ]
 }

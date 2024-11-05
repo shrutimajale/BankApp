@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -12,6 +13,25 @@ root.render(
      <BrowserRouter> 
     <App />
     </BrowserRouter>
+=======
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import "./index.css";
+import App from "/home/credentek/Bank Demo/bankdemo/src/App.js";
+
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { HashRouter as Router,Link} from "react-router-dom";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <Router>
+ 
+        <App />
+    
+    </Router>
+>>>>>>> master
   </React.StrictMode>
 );
 

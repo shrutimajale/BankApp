@@ -6,9 +6,17 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+<<<<<<< HEAD
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+=======
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.0.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+>>>>>>> master
     "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
@@ -18,8 +26,14 @@
     "react-icons": "^5.2.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.26.0",
+<<<<<<< HEAD
     "react-scripts": "^3.0.1",
     "react-slick": "^0.30.2",
+=======
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.6",
+>>>>>>> master
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },

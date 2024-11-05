@@ -34,6 +34,10 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/about" element={<About />} />
+<<<<<<< HEAD
+=======
+          <Route path="/ContactUs" element={<ContactUs />} />
+>>>>>>> master
           <Route
             path="/welcome"
             element={
@@ -50,7 +54,11 @@ function App() {
               </ProtectedRoute>
             }
           />
+<<<<<<< HEAD
           <Route path="/ContactUs" element={<ContactUs />} />
+=======
+
+>>>>>>> master
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/resetPassword" element={<ResetPassword />} />
           <Route path="/verify-otp" element={<VerifyOtp />} />

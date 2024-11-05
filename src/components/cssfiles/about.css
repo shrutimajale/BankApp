@@ -1,0 +1,68 @@
+.about-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.about-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.overview {
+    margin-bottom: 30px;
+}
+.overview h2 {
+    font-size: 2em;
+    color: #196bd6; /* Primary color */
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+.overview p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+}
+.mission-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mission, .values, .team {
+    flex: 1 1 280px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.icon {
+    font-size: 2.5em;
+    color: #196bd6; /* Primary color */
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+}
+p, ul {
+    font-size: 1em;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0; 
+}
+ul li {
+    margin: 5px 0;
+}

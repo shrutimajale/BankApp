@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url('/home/credentek/Bank Demo/bankdemo/src/images/Yes-Connect-New-1366x460-1.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background: #007BFF;
+}
+
+.btn-secondary {
+    background: #6C757D;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.feature-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    width: 23%;
+    text-align: center;
+}
+
+.news {
+    background: #e9ecef;
+    padding: 20px;
+    text-align: center;
+}
+
+.news-ticker {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}

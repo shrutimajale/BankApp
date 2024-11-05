@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.welcome-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: rgb(243, 241, 241);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+    color: #fff; /* White color for navbar text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.user-info h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.content-container {
+    top: 2px;
+    position: fixed;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 30%, #e0e0e0 70%);
+    color: #333;
+}
+
+.background-section {
+    flex: 3;
+    background: url('/home/credentek/Bank Demo/bankdemo/src/images/Yes-Connect-New-1366x460-1.jpg') no-repeat center center; /* Replace with your image path */
+    background-size:contain;
+}
+
+.main-content {
+    flex: 7;
+    padding: 100px;
+    background: linear-gradient(to bottom, #fff, #f4f4f4); /* Soft gradient for the bottom 70% */
+}
+
+.account-info {
+    background: #ffffff;
+    color: #0c0101;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.account p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    
+}
+
+.account span {
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.action {
+    width: 24%;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Colorful gradient */
+    color: #fffbfb;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.action p{
+    color: white;
+}
+
+.action:hover {
+    background: #ddd;
+    transform: translateY(-5px);
+}
+
+.action-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #c6d8f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+.card h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.transactions ul, .messages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.transactions li, .messages li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.positive {
+    color: green;
+    font-weight: bold;
+}
+
+.view-all {
+    display: block;
+    text-align: right;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+.deposit-checks button {
+    width: 100%;
+    padding: 12px;
+    background: #00509e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+}
+
+.deposit-checks button:hover {
+    background: #007bff;
+}
+.messages {
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    max-height: calc(100vh - 200px); /* Adjust based on layout needs */
+}
+.messages li span:last-child {
+    color: #555;
+    font-size: 12px;
+    display: block;
+    margin-top: 2px
+}
+
+.menu {
+    position: fixed;
+    top: 70px; /* Adjust based on navbar height */
+    right: 0;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.menubutton{
+    width: 100%;
+    padding: 12px;
+    background: #00509e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px;
+  
+    
+
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #ddd;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #f4f4f4;
+}
